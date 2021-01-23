@@ -1,3 +1,3 @@
 # JavaScript Momentum
 
-I like JavaScipt!
+JavaScript so cool!
