@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CHROME APP</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="js-weather-div">
+    <span class="js-weather"></span>
+</div>
+  <form class="search-form">
+    <span class="search"><i class="fas fa-search search-btn">
+
+    </i> <input type="text" id="search">
+    <div class="browser-background">
+    <select class="browser">
+        <option value="google">Google</option>
+        <option value="bing">Bing</option>
+        <option value="duckduckgo">DuckDuckGo</option>
+    </select>
+</div>
+</span>
+  </form>
+
+    <div class="js-clock">
+        <h1>00:00</h1>
+    </div>
+    <form class="js-form form">
+        <img src="logo-white.svg" class="img-logo">
+        <input type="text" placeholder="What is your name?" class="nameInput"/>
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" class="toDoInput" />
+    </form>
+    <ul class="js-toDoList"></ul>
+
+    <i class="fas fa-cog js-cog"></i>
+
+    <script src="js/clock.js"></script>
+    <script src="js/gretting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/window.js"></script>
+    <script src="js/search.js"></script>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

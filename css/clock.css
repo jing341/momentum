@@ -1,0 +1,15 @@
+.js-clock h1 {
+  display: flex;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: white;
+}
+
+.js-clock {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
